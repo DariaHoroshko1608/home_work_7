@@ -1,0 +1,240 @@
+@import url(reset.css);
+
+.container{
+  width: 1250px;
+  margin: 0px auto;
+}
+/* LINK */
+
+.link{
+  text-align: center;
+  margin: 50px auto;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.link a{
+  text-decoration: none;
+  color: 	#C71585;
+}
+
+.link a:hover{
+  color: #800080;
+  font-size: 65px;
+}
+
+.link a:active{
+  color: black;
+  font-weight: 900;
+}
+
+/* HEADER */
+
+.header{
+  font-size: 0;
+}
+.header > div{
+  vertical-align: top;
+  font-size: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  background: 	#FFFACD;
+  outline: 1px solid red;
+}
+
+/* MAIN */
+
+.main{
+  font-size: 0;
+}
+
+.main > div{
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  outline: 1px solid red;
+  background: 		#DA70D6;
+}
+
+.main__div{
+  width: 800px;
+  outline: 1px solid red;
+}
+
+.main__div > div{
+  height: 200px;
+  outline: 1px solid red;
+}
+
+.main__section__div{
+  width: 400px;
+  outline: 1px solid red;
+}
+
+.main__section__div > div{
+  height: 133px;
+  outline: 1px solid red;
+}
+
+/* FOOTER */
+.footer{
+  font-size: 0;
+}
+
+.footer > .footer__div, .footer__section__div{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.footer__div{
+  width: 395px;
+  height: 400px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+  font-size: 20px;
+}
+
+.footer__section__div > div{
+  height: 200px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+.footer-block_one, .footer-block_two{
+  display: inline-block;
+  font-size: 0;
+}
+
+.footer_inlane-block{
+  vertical-align: top;
+}
+
+.footer-block_one{
+  height: 200px;
+  width: 400px; 
+  background: #FFCCFF;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.footer-block_two{
+  height: 200px; 
+  width: 400px;
+  background: #FFCCFF;
+  font-size: 20px;
+}
+
+.footer-block_two > div{
+  outline: 1px solid red;
+  background: #FFCCFF;
+  height: 100px;
+} 
+
+/* !FLOAT */
+
+.container-float{
+  width: 1200px;
+  margin: 60px auto;
+}
+
+/* HEADER */
+
+.header-float > div{
+  float: left;
+  font-size: 20px;
+  width: 400px;
+  height: 400px;
+  background: 	#FFFACD;
+  outline: 1px solid red;
+}
+
+.header-float > div:nth-child(1n):hover{
+  background: rgb(226, 101, 101);
+}
+
+.header-float > div:nth-child(1n):active{
+  background: rgb(206, 7, 90);
+}
+
+/* MAIN */
+
+.main-float > div{
+  float: left;
+  vertical-align: bottom;
+  outline: 1px solid red;
+  background:#DA70D6;
+}
+
+.main__div-float{
+  width: 800px;
+  outline: 1px solid red;
+}
+
+.main__div-float > div{
+  height: 195px;
+  outline: 1px solid red;
+}
+
+.main__section__div-float{
+  width: 400px;
+  outline: 1px solid red;
+}
+
+.main__section__div-float > div{
+  height: 130px;
+  outline: 1px solid red;
+}
+
+/* FOOTER */
+
+.footer-float > .footer__div-float, .footer__section__div-float{
+  float: left;
+  font-size: 20px;
+}
+
+.footer__div-float{
+  width: 400px;
+  height: 400px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+  font-size: 20px;
+}
+
+.footer__section__div-float > div{
+  height: 200px;
+  outline: 1px solid red;
+  background: #FFCCFF;
+}
+
+.footer-block_one-float, .footer-block_two-float{
+  float: left;
+  vertical-align: top;
+}
+
+.footer_inlane-block-float{
+  vertical-align: top;
+}
+
+.footer-block_one-float{
+  height: 200px;
+  width: 400px; 
+  background: #FFCCFF;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.footer-block_two-float{
+  height: 200px; 
+  width: 400px;
+  background: #FFCCFF;
+  font-size: 20px;
+}
+
+.footer-block_two-float > div{
+  outline: 1px solid red;
+  background: #FFCCFF;
+  height: 100px;
+}
+
